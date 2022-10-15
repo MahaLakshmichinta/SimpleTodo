@@ -1,0 +1,38 @@
+/* Write your CSS here */
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.paragraph {
+  font-family: 'Roboto';
+  color: #000000;
+  font-size: 20px;
+}
+.button {
+  height: 30px;
+  width: 200px;
+  border: 1px solid #ff0b37;
+  border-radius: 10px;
+  outline: none;
+  cursor: pointer;
+  font-size: 10px;
+  font-family: 'Roboto';
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  color: #ff0b37;
+  margin-left: 18px;
+}
+@media screen and (min-width: 768px) {
+  .button {
+    font-size: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20x;
+    margin-right: 45px;
+    text-align: center;
+  }
+}

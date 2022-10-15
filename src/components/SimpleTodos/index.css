@@ -1,0 +1,20 @@
+/* Write your CSS here */
+.container-list {
+  background-color: #ffc2a0;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container-list-card {
+  flex-direction: column;
+  align-items: center;
+  background-color: #ffffff;
+  border-radius: 16px;
+  width: 80%;
+  min-height: 70vh;
+}
+.heading {
+  text-align: center;
+  color: #ff8542;
+}
